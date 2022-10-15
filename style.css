@@ -15,9 +15,16 @@ body {
 }
 h2 {
   text-align: center;
+  color: #525252ee;
 }
 ul {
   list-style-type: none;
+}
+ul li {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 ul li a {
   background-color: #ff2aa0;
@@ -28,4 +35,6 @@ ul li a {
   text-decoration: none;
   border-radius: 0.5rem;
   text-transform: uppercase;
+  width: 100%;
+  text-align: center;
 }
